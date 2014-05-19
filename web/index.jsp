@@ -13,6 +13,7 @@
     </head>
     <body>
         <h1>Vasiliy's email repository!!!</h1>
+        
         <h1>Please enter all the information to sign up for our email list.</h1>
         <form action="validateEntry" method="post">
             <table cellspacing="5" border="0">
