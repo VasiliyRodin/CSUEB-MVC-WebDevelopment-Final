@@ -4,9 +4,17 @@
         <servlet-name>validateData</servlet-name>
         <servlet-class>validateData</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>cartServlet</servlet-name>
+        <servlet-class>business.cartServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>validateData</servlet-name>
         <url-pattern>/validateData</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cartServlet</servlet-name>
+        <url-pattern>/cartServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
